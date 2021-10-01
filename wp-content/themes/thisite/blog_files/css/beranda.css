@@ -1,0 +1,46 @@
+.info-pembinaan{
+    font-family: 'Poppins', sans-serif;
+    padding: 70px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #194481;
+    color: white;
+    align-items: center;
+}
+
+@media screen and (max-width: 980px){
+    .info-pembinaan{
+        display: block;
+        padding: 70px 10%;
+    } 
+    .pembinaan-title{
+        margin-bottom: 20px;
+    }
+    .statistic-info div{
+        margin-top: 5px;
+    }
+}
+
+.statistic-item .statistic-icon{
+    margin-right: 10px;
+}
+
+.statistic-data p{
+    margin: 0;
+    font-size: 16px;
+}
+
+.statistic-data p:first-child{
+    font-size: 28px;
+}
+
+.pembinaan-title h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+.pembinaan-title a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+

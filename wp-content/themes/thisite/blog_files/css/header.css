@@ -91,3 +91,44 @@
         display: unset;
     }
 }
+
+.popup-search{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 200;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.popup-search .search-head{
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #d3d5d6;
+}
+
+.search-head span{
+    cursor: pointer;
+    display: inline-block;
+    width: 15px;
+    line-height: 13px;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.search-head input{
+    margin: 0 10px;
+    width: 40vw;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+}
