@@ -1,3 +1,96 @@
 footer{
-    background-color: tomato;
+    background-color: #33485D;
+    padding: 30px 50px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .footer-icon img{
+    width: 120px;
+}
+
+.footer-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contents h5{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer-contents .office{
+    max-width: 230px;
+}
+
+.footer-contents ul{
+    list-style: none;
+}
+
+.footer-contents ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.office p, .contact p{
+    margin: 0;
+}
+
+.footer-contents .quot{
+    max-width: 200px;
+}
+
+.policy{
+    margin-top: 35px;
+    border-top: 1px solid white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.policy span{
+    display: inline-block;
+}
+
+.policy .social a{
+    color: white;
+    text-decoration: none;
+}
+
+.policy .social a+a{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 920px){
+    .footer-contents{
+        row-gap: 30px;
+        column-gap: 10px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }    
+}
+
+@media screen and (max-width: 500px){
+    .policy{
+    display: block;
+}
+    .policy .social{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .policy .term{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .footer-contents{
+        row-gap: 30px;
+        column-gap: 10px;
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
