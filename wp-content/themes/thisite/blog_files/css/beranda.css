@@ -8,6 +8,144 @@
     align-items: center;
 }
 
+.daftar{
+    display: flex;
+    padding: 70px 103px;
+    background-color: #F5F5F5;
+    align-items: center;
+}
+
+.label-daftarsegera, .icon-daftar-segera{
+    width: 70%;
+}
+
+.label-daftarsegera, .icon-daftar-segera img{
+    width: 100%;
+}
+
+.label-daftarsegera h3{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+
+.label-daftarsegera button{
+    padding: 10px 30px;
+    font-weight: 600;
+    background-color: #194481;
+    color: white;
+}
+
+/* fungsi */
+
+.fungsi{
+    width: 100%;
+    padding: 70px 200px;
+    position: relative;
+    background-color: #F2FAFE;
+}
+
+.fungsi h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0B9EA9;
+    margin-bottom: 50px;
+}
+
+.carausel-item{
+    display: flex;
+}
+
+.carausel-item .paragraf{
+    margin-left: 20px;
+    color: #3f4041;
+}
+
+.carausel-item .paragraf h4{
+    font-weight: 700;
+    font-size: 28px;
+    color: #194481;
+}
+
+/* manfaat */
+.manfaat{
+    width: 100%;
+    padding: 70px 200px;
+    position: relative;
+    background-color: white;
+}
+
+.manfaat h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0B9EA9;
+    margin-bottom: 50px;
+}
+
+.manfat-container ul{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.manfat-container ul li{
+    display: flex;
+    margin-top: 20px;
+}
+
+.manfat-container ul li:first-child{
+    margin-top: 0px;
+}
+
+.manfat-container ul li .manfaat-rounded{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #F4F5F7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manfat-container ul li div p{
+    margin: 0;
+}
+
+.manfat-container{
+    display: flex;
+}
+
+.manfaat-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #1D5973;
+    margin-bottom: 30px;
+}
+
+.manfaat-article{
+    width: 550px;
+}
+
+@media screen and (max-width: 1024px){
+    .carausel-item .paragraf{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .carausel-item{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fungsi{
+        padding: 70px 120px;
+    }
+}
+
+
+
 @media screen and (max-width: 980px){
     .info-pembinaan{
         display: block;
@@ -18,6 +156,25 @@
     }
     .statistic-info div{
         margin-top: 5px;
+    }
+
+
+    .daftar{
+        padding: 70px 30px;
+        flex-direction: column;
+    }
+    
+    .icon-daftar-segera{
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+    .label-daftarsegera{
+        order: 2;
+    }
+
+    .label-daftarsegera, .icon-daftar-segera{
+        width: 100%;
     }
 }
 
@@ -43,4 +200,6 @@
     text-decoration: none;
     font-size: 20px;
 }
+
+
 

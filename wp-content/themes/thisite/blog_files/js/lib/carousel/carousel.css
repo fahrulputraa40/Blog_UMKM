@@ -1,0 +1,42 @@
+.carousel{
+    position: relative;
+}
+
+.carousel ul{
+    display: block;
+    position: relative;
+    list-style: none;
+}
+
+.carousel ul li{
+    float: left;
+}
+
+.carousel .carousel-mask{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.btn-carausel{
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 10px);
+    width: 30px;
+    height: 30px;
+    left: -80px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    filter: drop-shadow(0 0 2px #3f3e3e);
+}
+
+.btn-carausel-right{
+    right: -80px;
+    left: unset;
+}
