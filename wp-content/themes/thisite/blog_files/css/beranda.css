@@ -1,3 +1,18 @@
+.beranda{
+    padding: 70px 103px;
+}
+
+.beranda-container{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B9EA9;
+    margin-bottom: 16px;
+}
+
 .info-pembinaan{
     font-family: 'Poppins', sans-serif;
     padding: 70px 100px;
@@ -48,7 +63,7 @@
 .fungsi h3{
     text-align: center;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 48px;
     color: #0B9EA9;
     margin-bottom: 50px;
 }
@@ -79,7 +94,7 @@
 .manfaat h3{
     text-align: center;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 48px;
     color: #0B9EA9;
     margin-bottom: 50px;
 }
@@ -126,6 +141,73 @@
 
 .manfaat-article{
     width: 550px;
+}
+
+
+
+/* berita */
+.berita{
+    width: 100%;
+    padding: 70px 200px;
+    position: relative;
+    background-color: #F2FAFE;
+}
+
+.berita h3{
+    text-align: left;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0B9EA9;
+    margin-bottom: 50px;
+}
+
+.list-berita{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+}
+
+.list-berita li{
+    width: 30%;
+}
+
+.list-berita li a{
+    text-decoration: none;
+}
+
+.news-img{
+    margin-bottom: 16px;
+}
+
+.news-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.img-title{
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #184481;
+    display: block;
+}
+
+.news-date{
+    font-weight: 500;
+    color: #adb5bd;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+
+.news-headline{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: black;
 }
 
 @media screen and (max-width: 1024px){

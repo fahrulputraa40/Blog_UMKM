@@ -14,5 +14,11 @@
 
  add_action('wp_enqueue_scripts', 'this_blog_style_files');
 
+ function after_theme(){
+   register_nav_menu('headerNavigation', 'Header Navigation');
+ }
+
+ add_action('after_setup_theme', 'after_theme');
+
 ?>
 
