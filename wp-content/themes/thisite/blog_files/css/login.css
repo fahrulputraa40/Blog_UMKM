@@ -1,0 +1,21 @@
+.login{
+    padding: 72px 112px;
+}
+
+.login-form{
+    width: 50%;
+}
+.login-form h4{
+    color: #47D1F4;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.password{
+    border-right: none;
+}
+
+.password + div.input-group-prepend div{
+    border-left: none;
+    background-color: transparent;
+}

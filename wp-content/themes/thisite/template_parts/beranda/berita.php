@@ -1,5 +1,5 @@
 <div class="berita">
-    <h3>Berita Terkini</h3>
+    <h3>Artikel terbaru</h3>
     <ul class="list-berita">
         <li>
             <a href="#">
@@ -68,7 +68,7 @@
     </ul>
     <div class="row justify-content-center">
         <div class="col-md-4 col-sm-6 col-12">
-            <a href="#" style="max-width: 240px" class="btn btn-primary">Lihat berita lainnya</a>
+            <a href="#" style="max-width: 240px" class="btn btn-primary">Lihat artikel lainnya</a>
         </div>
     </div>
 </div>

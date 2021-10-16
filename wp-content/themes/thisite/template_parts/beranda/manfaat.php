@@ -1,8 +1,8 @@
 <div class="manfaat">
     <h3>Manfaat Bergabung di Rumah BUMN</h3>
-    <div class="manfat-container">
+    <div class="manfaat-container">
         <div class="manfaat-image">
-            <img width="400px" src=<?php echo get_theme_file_uri('/assets/demo1.jpg');?> alt="belum ada">
+            <img src=<?php echo get_theme_file_uri('/assets/demo1.jpg');?> alt="belum ada">
         </div>
         <ul>
             <li>
